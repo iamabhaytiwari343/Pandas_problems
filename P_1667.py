@@ -13,3 +13,5 @@ def fix_names(Users: pd.DataFrame) -> pd.DataFrame:
     Users = Users.sort_values(by='user_id')
 
     return Users
+
+
